@@ -15,8 +15,9 @@ Endava project is made in C#. It's implement Endava UI and RestFull API tasks.
 * Nunit
 
 ## Installation
-
 1. Clone the repo
    ```sh
    git clone https://github.com/hristo831/Endava.git
    ```
+2. Instal Speckflow extention for Visual Studio
+
