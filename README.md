@@ -27,7 +27,11 @@ The project is divided into 5 separate projects
 * Test Configuration
   - A project that reads information from testsettings.json file
 * UI Framework
+  - Implemented the pages following Page Object Design Pattern with partial classes(Page, Page Asserter, Page Map) 
 * UI Tests
+  - Implemented UI tests following BDD with Speckflow(Feature and Steps files)
+  - Endava UI scenarios are under EndavaScenarios feature file.
 * Service Framework
+  - Implemented http requests and responses following Singleton Design pattern with Lazy
 * Service Tests
-
+  - Implemented Endava service tests
