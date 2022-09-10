@@ -25,7 +25,7 @@ Endava project is made in C#. It's implement Endava UI and RestFull API tasks.
 ## Roadmap
 The project is divided into 5 separate projects
 * Test Configuration
-A project that reads information from testsettings.json file
+- A project that reads information from testsettings.json file
 * UI Framework
 * UI Tests
 * Service Framework
