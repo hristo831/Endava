@@ -4,7 +4,8 @@
 Background: 
 	Given Navigate to Login page
 		And Login with valid username and password
-	
+
+@EndavaScenariosTests	
 Scenario: Scenario 1
 	Then I am redirected to the Inventory page with url "/inventory.html"
 		And Page title is "PRODUCTS"
@@ -41,6 +42,7 @@ Scenario: Scenario 1
 	When Logout from the system
 	Then I am redirected to the Login page with url "/"
 
+@EndavaScenariosTests
 Scenario: Scenario 2
 	When Select price high to low
 	Then The items are sorted from high to low price

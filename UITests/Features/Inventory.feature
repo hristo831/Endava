@@ -5,6 +5,7 @@ Background:
 	Given Navigate to Login page
 		And Login with valid username and password
 
+@InventoryTests
 Scenario: Add the first and the last items.
 	When Add the first inventory item to the cart 
 		And Add the last inventory item to the cart

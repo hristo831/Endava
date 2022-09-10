@@ -9,6 +9,7 @@ Background:
 		And Click shopping cart badge
 		And  Click checkout
 
+@CheckoutSpepOneTests
 Scenario: Checkout order
 	Then I am redirected to the Checkout Step One page with url "/checkout-step-one.html"
 		And Page title is "CHECKOUT: YOUR INFORMATION"

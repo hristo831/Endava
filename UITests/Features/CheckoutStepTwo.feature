@@ -13,6 +13,7 @@ Background:
 		| Hristo    | Georgiev | 4000    |
 		And Click Contunue
 
+@CheckoutStepTwoTests
 Scenario: Finish order
 	When Click finish
 	Then I am redirected to the Checkout Complete page with url "/checkout-complete.html"

@@ -99,12 +99,14 @@ namespace UITests.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Checkout order")]
+        [NUnit.Framework.CategoryAttribute("CheckoutSpepOneTests")]
         public void CheckoutOrder()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "CheckoutSpepOneTests"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Checkout order", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 12
+#line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -117,10 +119,10 @@ this.ScenarioInitialize(scenarioInfo);
 #line 4
 this.FeatureBackground();
 #line hidden
-#line 13
+#line 14
  testRunner.Then("I am redirected to the Checkout Step One page with url \"/checkout-step-one.html\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 14
+#line 15
   testRunner.And("Page title is \"CHECKOUT: YOUR INFORMATION\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
@@ -131,16 +133,16 @@ this.FeatureBackground();
                             "Hristo",
                             "Georgiev",
                             "4000"});
-#line 15
+#line 16
  testRunner.When("Fill my information", ((string)(null)), table1, "When ");
 #line hidden
-#line 18
+#line 19
   testRunner.And("Click Contunue", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 19
+#line 20
  testRunner.Then("I am redirected to the Checkout Step Two page with url \"/checkout-step-two.html\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 20
+#line 21
   testRunner.And("Page title is \"CHECKOUT: OVERVIEW\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

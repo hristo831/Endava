@@ -8,6 +8,7 @@ Background:
 		And Add the last inventory item to the cart
 		And Click shopping cart badge
 
+@CartTests
 Scenario: Remove the first and add the penultimate item.
 	When Remove the first item
 		And Click continue shopping
