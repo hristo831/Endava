@@ -22,3 +22,12 @@ Endava project is made in C#. It's implement Endava UI and RestFull API tasks.
 2. Install Speckflow extention for Visual Studio
 3. Chrome browser version must be greater than 105.05
 
+## Roadmap
+The project is divided into 5 separate projects
+* Test Configuration
+A project that reads information from testsettings.json file
+* UI Framework
+* UI Tests
+* Service Framework
+* Service Tests
+
