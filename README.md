@@ -19,7 +19,7 @@ Endava project is made in C#. It's implement Endava UI and RestFull API tasks.
    ```sh
    git clone https://github.com/hristo831/Endava.git
    ```
-2. Install Speckflow extention for Visual Studio
+2. Install Specflow extention for Visual Studio
 3. Chrome browser version must be greater than 105.05
 
 ## Roadmap
