@@ -5,7 +5,7 @@
       "Browser": "Chrome"
     },
     "Service": {
-      "ServiceBaseUrl": "https://reqres.in/api"
+      "ServiceBaseUrl": "https://reqres.in/api/"
     }
   }
 }

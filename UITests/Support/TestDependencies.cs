@@ -4,7 +4,6 @@ using SpecFlow.Autofac;
 using TechTalk.SpecFlow;
 using TestConfiguration;
 using UIFramework;
-using UIFramework.Models;
 using UIFramework.Pages;
 
 namespace UITests.Support
@@ -27,7 +26,6 @@ namespace UITests.Support
 
             builder.RegisterInstance(new SeleniumContext(Configurator.Settings.UI.Browser).WebDriver).As<IWebDriver>().SingleInstance();
             builder.RegisterTypes(typeof(BasePage).Assembly.GetTypes().ToArray()).SingleInstance();
-            builder.RegisterInstance(new ItemInfo()).SingleInstance();
 
             builder.RegisterTypes(typeof(TestDependencies).Assembly.GetTypes().Where(t => Attribute.IsDefined(t, typeof(BindingAttribute))).ToArray());
 

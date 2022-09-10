@@ -14,6 +14,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIFramework", "UIFramework\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UITests", "UITests\UITests.csproj", "{11BD1925-9C69-4C1C-9693-2B81A9825629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFramework", "ServiceFramework\ServiceFramework.csproj", "{38717A40-63B1-49A0-81FA-8D4B404DD4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "ServiceTests\ServiceTests.csproj", "{726BA022-CEAE-4598-A1D9-66EA7ED78516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,14 @@ Global
 		{11BD1925-9C69-4C1C-9693-2B81A9825629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11BD1925-9C69-4C1C-9693-2B81A9825629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11BD1925-9C69-4C1C-9693-2B81A9825629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38717A40-63B1-49A0-81FA-8D4B404DD4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38717A40-63B1-49A0-81FA-8D4B404DD4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38717A40-63B1-49A0-81FA-8D4B404DD4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38717A40-63B1-49A0-81FA-8D4B404DD4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726BA022-CEAE-4598-A1D9-66EA7ED78516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726BA022-CEAE-4598-A1D9-66EA7ED78516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726BA022-CEAE-4598-A1D9-66EA7ED78516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726BA022-CEAE-4598-A1D9-66EA7ED78516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
