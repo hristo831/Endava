@@ -1,0 +1,11 @@
+{
+  "testSettings": {
+    "UI": {
+      "UIBaseUrl": "https://www.saucedemo.com",
+      "Browser": "Chrome"
+    },
+    "Service": {
+      "ServiceBaseUrl": "https://reqres.in/api"
+    }
+  }
+}
