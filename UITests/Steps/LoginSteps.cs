@@ -1,5 +1,4 @@
 ﻿using TechTalk.SpecFlow;
-using UIFramework.Pages.InventoryPage;
 using UIFramework.Pages.LoginPage;
 
 namespace UITests.Steps

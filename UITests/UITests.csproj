@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TestConfiguration\TestConfiguration.csproj" />
+    <ProjectReference Include="..\UIFramework\UIFramework.csproj" />
     <ProjectReference Include="..\UI\UIFramework.csproj" />
   </ItemGroup>
 
